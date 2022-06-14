@@ -19,12 +19,12 @@
   "plugins": ["react"],
   "rules": {
     "no-unused-vars": [
-      "error",
+      "warn",
       { "vars": "all", "args": "none", "ignoreRestSiblings": true }
     ],
     "consistent-return": "off",
     "no-plusplus": "off",
-    "quotes": ["error", "single"],
+    "quotes": ["warn", "single"],
     "semi": ["error", "always"],
     "space-infix-ops": ["error"],
     "max-len": [

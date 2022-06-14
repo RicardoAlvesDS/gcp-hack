@@ -6,11 +6,11 @@ import { loaderReducer, dataReducer, optionsReducer } from './reducers';
  *
  * @returns Session storage items
  */
-// const storage = () => {
-//   return SESSION_STORAGE_ENABLED
-//     ? JSON.parse(sessionStorage.getItem(STORAGE_KEY))
-//     : {};
-// };
+const storage = () => {
+  return SESSION_STORAGE_ENABLED
+    ? JSON.parse(sessionStorage.getItem(STORAGE_KEY))
+    : {};
+};
 
 // Defining initial state
 export const initialState = {
