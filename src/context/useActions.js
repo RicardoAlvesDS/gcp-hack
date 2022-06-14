@@ -1,5 +1,5 @@
-import { useCallback } from "react";
-import { SET_LOADER, SET_DATA } from "../constants";
+import { useCallback } from 'react';
+import { SET_LOADER, SET_DATA } from '../constants';
 
 const useActions = (state, dispatch) => {
   // Setters

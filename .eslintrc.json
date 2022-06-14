@@ -18,6 +18,10 @@
   },
   "plugins": ["react"],
   "rules": {
+    "no-unused-vars": [
+      "error",
+      { "vars": "all", "args": "none", "ignoreRestSiblings": true }
+    ],
     "consistent-return": "off",
     "no-plusplus": "off",
     "quotes": ["error", "single"],

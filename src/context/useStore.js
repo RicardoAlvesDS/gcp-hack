@@ -1,6 +1,6 @@
-import { useContext } from "react";
-import { store } from "./store";
-import useActions from "./useActions";
+import { useContext } from 'react';
+import { store } from './store';
+import useActions from './useActions';
 
 const useStore = () => {
   const { state, dispatch } = useContext(store);

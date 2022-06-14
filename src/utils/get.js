@@ -1,8 +1,8 @@
 const getData = (items) =>
-new Promise((resolve, reject) => {
+new Promise((resolve) => {
   setTimeout(() => {
     resolve(items);
-  }, 3000);
+  }, 2000);   
 });
 
 export default getData;

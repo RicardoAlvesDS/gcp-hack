@@ -1,4 +1,4 @@
-import { SET_LOADER, SET_DATA, SET_OPTIONS } from "../constants";
+import { SET_LOADER, SET_DATA, SET_OPTIONS } from '../constants';
 
 export const dataReducer = (state, action) => {
   switch (action.type) {

@@ -1,6 +1,7 @@
-import "./App.css";
-import { StateProvider } from "./context/store";
-import Items from "./components/Items/Items";
+import React from 'react';
+import './App.css';
+import { StateProvider } from './context/store';
+import Items from './components/Items/Items';
 
 function App() {
   return (
